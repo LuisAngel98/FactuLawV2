@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FactuLaw.Domain\FactuLaw.Domain.csproj" />
+    <ProjectReference Include="..\FactuLaw.Infrastructure\FactuLaw.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
